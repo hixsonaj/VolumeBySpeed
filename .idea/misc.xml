@@ -1,0 +1,33 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/button.xml" value="0.197" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/button_serviceoff.xml" value="0.332" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/button_serviceon.xml" value="0.197" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/button_warningoff.xml" value="0.197" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/button_warningon.xml" value="0.197" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/ic_android.xml" value="0.197" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/onoffbutton.xml" value="0.197" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/drawable/rounded_corner.xml" value="0.332" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/layout-land/activity_main.xml" value="0.26421547669944423" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/layout/activity_info_pop_up.xml" value="0.1" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/layout/activity_main.xml" value="0.3175213675213675" />
+        <entry key="..\:/Users/hixso/AndroidStudioProjects/VolumeBySpeed/app/src/main/res/layout/activity_settings_pop_up.xml" value="0.3266353142368534" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="1.0" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

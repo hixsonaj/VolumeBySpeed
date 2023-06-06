@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button.default" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="Button.active" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
+</resources>

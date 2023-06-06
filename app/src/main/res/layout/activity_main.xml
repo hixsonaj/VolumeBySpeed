@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tech.ZeroFour.volumebyspeed.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_volumeTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tv_volumeTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="by" />
+
+    <TextView
+        android:id="@+id/tv_volumeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/tv_volume"
+        app:layout_constraintRight_toRightOf="@+id/tv_volume"
+        app:layout_constraintLeft_toLeftOf="@id/tv_volume"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="VOLUME" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/tv_speed"
+        app:layout_constraintRight_toRightOf="@+id/tv_speed"
+        app:layout_constraintLeft_toLeftOf="@id/tv_speed"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:text="SPEED" />
+
+    <TextView
+        android:id="@+id/tv_maxVolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/tv_volume"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_volume"
+        android:text="/-" />
+
+
+    <TextView
+        android:id="@+id/mph_kph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/tv_speed"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_speed"
+        android:text="MPH" />
+
+
+    <TextView
+        android:id="@+id/tv_volume"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/onOff"
+        app:layout_constraintRight_toLeftOf="@id/tv_by"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:paddingHorizontal="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="100dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_speed"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/onOff"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:text="-"
+        android:textSize="100dp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/minusPercentIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/tv_percentIncrease"
+        app:layout_constraintBottom_toTopOf="@id/onOff"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:text="-"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/tv_percentIncrease"
+        app:layout_constraintBottom_toTopOf="@+id/onOff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:textSize="40dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/plusPercentIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_percentIncrease"
+        app:layout_constraintBottom_toTopOf="@id/onOff"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/transparent"
+        android:text="+"
+        android:textSize="24dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/onOff"
+        app:layout_constraintBottom_toTopOf="@+id/ad_view1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/button_serviceoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:paddingHorizontal="20dp"
+        android:text="ON/OFF"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/infoPopUp"
+        app:layout_constraintBottom_toTopOf="@+id/ad_view1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_warningoff"
+        android:text="\?"
+        android:textSize="25dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settingsPopUp"
+        app:layout_constraintBottom_toTopOf="@+id/ad_view1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        app:icon="@drawable/ic_baseline_settings_24"
+        app:iconGravity="textStart"
+        android:background="@drawable/button_warningoff"
+        app:iconSize="25dp"
+        app:iconPadding="-1.5dp"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ad_view1"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2701820106710934/8442406039" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
