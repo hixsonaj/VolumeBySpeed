@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Volume By Speed</string>
+    <string name="too_high_volume_warning">Your volume may already be too high, consider lowing your volume before starting</string>
+    <string name="KPH">KPH</string>
+    <string name="MPH">MPH</string>
+    <string name="increaseMPH">% volume increase every MPH</string>
+    <string name="increaseKPH">% volume increase every KPH</string>
+    <string name="info">The volume of your device will be adjusted by a function according to your speed. The rate at which this happens can be adjusted in settings. A higher percentage will lead to a more drastic increase.</string>
+</resources>
